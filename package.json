@@ -1,0 +1,35 @@
+{
+  "name": "jivenchy",
+  "version": "1.0.0",
+  "description": "jivenchy lending",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicerossiinthecodeworld/jivenchy.git"
+  },
+  "author": "alicerossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicerossiinthecodeworld/jivenchy/issues"
+  },
+  "homepage": "https://github.com/alicerossiinthecodeworld/jivenchy#readme",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.4",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
