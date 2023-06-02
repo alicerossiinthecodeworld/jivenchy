@@ -1,0 +1,21 @@
+.header__main-pic {
+  Width: 700px;
+  Height: 934px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__main-pic {
+    width: 486px;
+    height: 646px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .header__main-pic {
+    width: 320px;
+    height: 426px;
+  }
+}

@@ -1,0 +1,22 @@
+.header{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto 0px auto;
+  height: max-content;
+  background-color: #E7E7E2;
+  min-height: 934px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    min-height: 646px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    min-height: 426px;
+  }
+}

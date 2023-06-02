@@ -1,0 +1,27 @@
+.lead{
+  position: relative;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 0px;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+  min-height: 835px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    min-height:  452px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    padding-top: 20px;
+    min-height:  452px;
+    width: 320px;
+  }
+}

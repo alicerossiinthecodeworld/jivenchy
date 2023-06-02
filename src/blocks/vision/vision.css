@@ -1,0 +1,16 @@
+.vision {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: inherit;
+  align-items: center;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 765px) {
+    .vision {
+    padding-top: 20px;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+}

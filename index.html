@@ -6,11 +6,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
   <title>jivenchy</title>
 </head>
+
 <body class="page">
   <header class="header">
+    <img class="header__main-pic" src="<%=require('./src/images/header_pic.png')%>" alt="header pic" />
     <div class="header__menu">
-      <img class="header__menu-pic" src="<%=require('./src/images/Menu.svg')%>" alt="меню" />
-      <p class="header__menu-text">Меню</p>
-      <nav class='menu menu_hidden'></nav>
+      <img class="header__menu-pic" src="<%=require('./src/images/Menu.svg')%>" alt="menu" />
+      <p class="header__menu-text">MENU</p>
     </div>
-  <header>
+    <div class="header__info">
+      <h1 class="title_h1">GIVENCHY<br> SPRING SUMMER 2021<br> BY MATTHEW M. WILLIAMS</h1>
+      <div class="header__subscribe">
+        <p>Subscribe to collection’s news</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="menu menu_hidden">
+      <nav class="menu__column">
+        <ul><a class="menu__links" href="#about">ABOUT</a></ul>
+        <ul><a class="menu__links" href="#looks">LOOKS</a></ul>
+        <ul><a class="menu__links" href="#subscribe">SUBSCRIBE</a></ul>
+      </nav>
+    </section>
+    <section class="about" id="about">
+      <div class="about__info-block">
+        <h2 class="title_h2">ABOUT</h2>
+        <p class="about__text">The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of
+          consciousness for Williams and is a ‘sampler’ of what is to come.</p>
+      </div>
+    </section>
+    <section class="lead">
+      <img class="lead__pic" src="<%=require('./src/images/red_woman.png')%>" alt="red_woman" />
+      <div class="lead__info-block">
+        <p class="lead__text">“To me, fashion expresses a point of view where formality and informality,
+          construction and comfort co-exist. My ethos is about the luxury of infusing clothes with your own
+          personality, not being worn by them,”</p>
+        <p class="lead__text">“Matthew M. Williams.”</p>
+      </div>
+    </section>
+    <section class="vision">
+      <img class="vision__pic" src="<%=require('./src/images/dreads_man.png')%>" alt="a man with dreads" />
+      <p class="vision__text">Matthew M. Williams reveals his vision with help from an all-star lineup of likeminded
+        artists. The Creative Director called on close friends in his tight-knit community of artists. Kendall Jenner,
+        Bella Hadid, Playboi Carti and the supermodels Anok Yai and Liam Powers were each invited to put their own stamp
+        on key pieces, the better to highlight the importance of cultivating a powerful personal style.
+      </p>
+    </section>
+    <section class="lead lead_size_big">
+      <img class="lead__pic lead__pic_size_big" src="<%=require('./src/images/beige_woman.png')%>" alt="beige_woman" />
+      <div class="lead__info-block">
+        <p class="lead__text">“In each of these portraits, a strong character wears a look that reflects who they are:
+          they’re the ones who bring the clothes to life.”</p>
+        <p class="lead__text">“Matthew M. Williams.”</p>
+      </div>
+    </section>
+    <section class="looks" id="looks">
+      <h2 class="title_h2">LOOKS</h2>
+      <ul class="looks__gallery">
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks1.png')%>" alt="Card 1"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks2.png')%>" alt="Card 2"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks3.png')%>" alt="Card 3"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks4.png')%>" alt="Card 4"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks5.png')%>" alt="Card 5"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks6.png')%>" alt="Card 6"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks7.png')%>" alt="Card 7"></li>
+        <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks8.png')%>" alt="Card 8"></li>
+      </ul>
+    </section>
+  </main>
