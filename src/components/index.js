@@ -1,5 +1,6 @@
 import('../pages/index.css');
-import('./menu');
+import './menu';
+import {scrollToAnchors} from './navigation';
 import('./gallery')
 import {enableValidation, hasInvalidInput} from './validate.js';
 export const config = {
@@ -39,3 +40,6 @@ formElement.addEventListener('keydown', (evt) => {
     }
   }
 });
+
+
+scrollToAnchors();

@@ -1,4 +1,4 @@
-import { anchorSubscribe,anchorAbout,anchorLooks} from "./constants";
+import { anchorSubscribe,anchorAbout,anchorLooks, menuIcon, menu} from "./constants";
 
 
 function scrollToAnchor(anchors) {

@@ -24,9 +24,9 @@
   <main>
     <section class="menu menu_hidden">
       <nav class="menu__column">
-        <ul><a class="menu__links" href="#about">ABOUT</a></ul>
-        <ul><a class="menu__links" href="#looks">LOOKS</a></ul>
-        <ul><a class="menu__links" href="#subscribe">SUBSCRIBE</a></ul>
+        <ul><a class="menu__links" href="#about" id="aboutAnc" >ABOUT</a></ul>
+        <ul><a class="menu__links" href="#looks" id="looksAnc" >LOOKS</a></ul>
+        <ul><a class="menu__links" href="#subscribe" id="subscribeAnc" >SUBSCRIBE</a></ul>
       </nav>
     </section>
     <section class="about" id="about">
@@ -74,7 +74,7 @@
         <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks8.png')%>" alt="Card 8"></li>
       </ul>
     </section>
-    <section class="subscribe">
+    <section class="subscribe" id="subscribe">
       <p class="subscribe__text">Subscribe to the newsletter and be the first to know about the new collection’s drop date
         and news</p>
       <form class="subscribe__form" novalidate>
