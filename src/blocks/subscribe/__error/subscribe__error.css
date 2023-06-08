@@ -1,0 +1,20 @@
+.subscribe__error {
+  color: #FF0000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  height: 0px;
+  margin: 0px 36px 0px;
+  min-height: 0px;
+  max-width: 100%;
+  opacity: 0;
+  padding: 10px 0px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .subscribe__error {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+}

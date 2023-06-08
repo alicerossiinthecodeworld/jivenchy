@@ -74,4 +74,26 @@
         <li class="looks__gallery-item"><img src="<%=require('./src/images/looks/looks8.png')%>" alt="Card 8"></li>
       </ul>
     </section>
+    <section class="subscribe">
+      <p class="subscribe__text">Subscribe to the newsletter and be the first to know about the new collection’s drop date
+        and news</p>
+      <form class="subscribe__form" novalidate>
+        <label for="email"></label>
+        <div class="subscribe__submit-input">
+          <input class="subscribe__input form-input" type="email" id="email" name="email"  placeholder="Enter your email  here" required>
+          <button class="subscribe__submit" type="submit">Submit</button>
+        </div>
+        <span class="subscribe__error email-error"></span>
+        <div class="subscribe__checkbox">
+          <label for="consent" class="subscribe__label">
+            <input  class='form-input' type="checkbox" id="consent" name="consent" required>
+            I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy 
+          </label>
+        </div>
+        <span class="subscribe__error consent-error"></span>
+      </form>
+    </section>
   </main>
+  <footer class="footer">
+    <p class="subscribe__text">© 2021, Givenchy. Some rights reservedç</p>
+  </footer>
