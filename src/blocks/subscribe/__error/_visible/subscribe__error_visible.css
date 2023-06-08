@@ -1,0 +1,6 @@
+.subscribe__error_visible{
+  display: visible;
+  opacity: 1;
+  height: max-content;
+  min-height: 30px;
+}

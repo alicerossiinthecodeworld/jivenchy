@@ -1,0 +1,11 @@
+.subscribe__submit {
+  width: 108px;
+  height: 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .subscribe__submit {
+    width: 280px;
+    padding: 0;
+  }
+}

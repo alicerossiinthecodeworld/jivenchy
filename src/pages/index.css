@@ -27,3 +27,13 @@
 @import url("../blocks/looks/__gallery-item/_active/looks__gallery-item_active.css");
 @import url("../blocks/title/__h1/title__h1.css");
 @import url("../blocks/title/__h2/title__h2.css");
+@import url("../blocks/subscribe/subscribe.css");
+@import url("../blocks/subscribe/__text/subscribe__text.css");
+@import url("../blocks/subscribe/__submit/subscribe__submit.css");
+@import url("../blocks/subscribe/__checkbox/subscribe__checkbox.css");
+@import url("../blocks/subscribe/__input/subscribe__input.css");
+@import url("../blocks/subscribe/__form/subscribe__form.css");
+@import url("../blocks/subscribe/__submit-input/subscribe__submit-input.css");
+@import url("../blocks/subscribe/__error/subscribe__error.css");
+@import url("../blocks/subscribe/__error/_visible/subscribe__error_visible.css");
+@import url("../blocks/footer/footer.css");
