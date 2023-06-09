@@ -1,0 +1,27 @@
+.looks__gallery-item {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  max-width: 350px;
+  max-height: 436px;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .looks__gallery-item {
+    max-width: 243px;
+    max-height: 302px;
+  }
+}
+
+
+@media screen and (max-width: 765px) {
+  .looks__gallery-item {
+    max-width: 140px;
+    max-height: 174px;
+  }
+}

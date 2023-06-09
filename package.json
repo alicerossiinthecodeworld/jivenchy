@@ -1,0 +1,45 @@
+{
+  "name": "jivenchy",
+  "version": "1.0.0",
+  "description": "jivenchy lending",
+  "main": "./src/components/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicerossiinthecodeworld/jivenchy.git"
+  },
+  "author": "alicerossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicerossiinthecodeworld/jivenchy/issues"
+  },
+  "homepage": "https://github.com/alicerossiinthecodeworld/jivenchy#readme",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "imagemin": "^8.0.1",
+    "mini-css-extract-plugin": "^2.7.6"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "favicons-webpack-plugin": "^6.0.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
+    "html-replace-webpack-plugin": "^2.6.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}

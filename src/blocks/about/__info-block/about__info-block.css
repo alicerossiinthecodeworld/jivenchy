@@ -1,0 +1,14 @@
+.about__info-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: inherit;
+}
+
+
+@media screen and (max-width: 765px) {
+  .about__info-block {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

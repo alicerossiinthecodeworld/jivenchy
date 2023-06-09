@@ -1,0 +1,33 @@
+.subscribe__input {
+  width: 544px;
+  height: 40px;
+  background: #0A0A0A;font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;  
+  color: white;
+  padding-left: 24px;
+  margin: 0;
+  border: 0.5px solid #FFFFFF;
+}
+
+.subscribe__input::placeholder {
+  color: gray;
+  font-size: 16px;
+  line-height: 24px;  
+}
+
+
+@media screen and (max-width: 768px) {
+  .subscribe__input {
+    width: 378px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subscribe__input {
+    width: 268px;
+    padding-left: 10px;
+  }
+}

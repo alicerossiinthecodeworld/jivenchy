@@ -1,0 +1,13 @@
+.vision__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 765px) {
+  .vision__text {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,8 @@
+.subscribe__submit_inavailible {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.subscribe__submit_inavailible:hover {
+  opacity: 0.3;
+  cursor: not-allowed;}

@@ -1,0 +1,6 @@
+.header__menu-pic_type_close {
+  content: url('../../../../images/close_menu.svg');
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}

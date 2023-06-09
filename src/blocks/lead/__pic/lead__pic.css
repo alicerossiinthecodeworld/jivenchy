@@ -1,0 +1,32 @@
+.lead__pic {
+  position: absolute;
+  right: 195px;
+  top: 10px;
+  z-index: -1;
+}
+.lead__pic.lead__pic_size_big {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__pic {
+    top: 120px;
+    right: 125px;
+    width: 364px;
+    height: 452px;
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .lead__pic, .lead__pic.lead__pic_size_big {
+    position: unset;
+    margin: 0 auto;
+    width: 280px;
+    height: 348px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.header__subscribe {
+  display: block;
+  background: #0A0A0A;
+  color: white;
+  width: 350px;
+  height: 48px;
+  border: 0.5px solid #0A0A0A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top:15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__subscribe {
+    margin: 0 auto;
+    width: 280px;
+  }
+}
+
+.header__subscribe:hover {
+  opacity: 0.7;
+}

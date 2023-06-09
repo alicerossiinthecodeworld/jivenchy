@@ -1,0 +1,16 @@
+.about__text {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0A0A0A;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__text {
+    padding-left: 20px;
+    text-align: center;
+  }
+}

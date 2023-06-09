@@ -1,0 +1,12 @@
+.subscribe__submit-input{
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 425px) {
+  .subscribe__submit-input {
+    width: 280px;
+    flex-direction: column;
+  }
+}

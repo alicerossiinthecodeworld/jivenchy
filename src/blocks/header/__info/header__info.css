@@ -1,0 +1,18 @@
+.header__info{
+  position: absolute;
+  right: 20px;
+  top: 310px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  row-gap: 0px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__info {
+    top:111px;
+    left:10px;
+    max-width: 288px;
+  }
+}
+

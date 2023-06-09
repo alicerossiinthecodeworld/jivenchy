@@ -1,0 +1,11 @@
+.lead__pic_size_big {
+  width: 875px;
+  height: 1095px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__pic_size_big {
+    width: 485px;
+    height: 607px;
+  }
+}
