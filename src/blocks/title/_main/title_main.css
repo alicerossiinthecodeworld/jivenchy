@@ -1,4 +1,4 @@
-.title_h1{
+.title_main{
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .title_h1 {
+  .title_main {
     font-size: 32px;
     line-height: 40px;
   }
 }
 
 @media screen and (max-width: 765px) {
-  .title_h1{
+  .title_main{
     font-size: 24px;
     line-height: 32px;
     width: 280px;

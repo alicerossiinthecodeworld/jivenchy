@@ -11,8 +11,6 @@
 @media screen and (max-width: 1024px) {
   .about__text {
     padding-left: 20px;
-    font-size: 20px;
-    line-height: 32px;
     text-align: center;
   }
 }
