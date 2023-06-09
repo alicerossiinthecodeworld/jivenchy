@@ -15,7 +15,7 @@
       <p class="header__menu-text">MENU</p>
     </div>
     <div class="header__info">
-      <h1 class="title title_main">GIVENCHY<br> SPRING SUMMER 2021<br> BY MATTHEW M. WILLIAMS</h1>
+      <h1 class="title title_main">GIVENCHY SPRING SUMMER 2021 BY MATTHEW M. WILLIAMS</h1>
       <div class="header__subscribe">
         <p>Subscribe to collection’s news</p>
       </div>
@@ -24,9 +24,9 @@
   <main>
     <section class="menu menu_hidden">
       <nav class="menu__column">
-        <ul><a class="menu__links" href="#about" id="aboutAnc" >ABOUT</a></ul>
-        <ul><a class="menu__links" href="#looks" id="looksAnc" >LOOKS</a></ul>
-        <ul><a class="menu__links" href="#subscribe" id="subscribeAnc" >SUBSCRIBE</a></ul>
+        <ul><a class="menu__links" href="#about" id="aboutAnc">ABOUT</a></ul>
+        <ul><a class="menu__links" href="#looks" id="looksAnc">LOOKS</a></ul>
+        <ul><a class="menu__links" href="#subscribe" id="subscribeAnc">SUBSCRIBE</a></ul>
       </nav>
     </section>
     <section class="about" id="about">
@@ -64,30 +64,41 @@
     <section class="looks" id="looks">
       <h2 class="title title_section">LOOKS</h2>
       <ul class="looks__gallery">
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks1.png')%>" alt="Card 1"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks2.png')%>" alt="Card 2"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks3.png')%>" alt="Card 3"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks4.png')%>" alt="Card 4"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks5.png')%>" alt="Card 5"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks6.png')%>" alt="Card 6"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks7.png')%>" alt="Card 7"></li>
-        <li class="looks__gallery-item"><img class="looks__gallery-image" src="<%=require('./src/images/looks/looks8.png')%>" alt="Card 8"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks1.png')%>" alt="Card 1"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks2.png')%>" alt="Card 2"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks3.png')%>" alt="Card 3"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks4.png')%>" alt="Card 4"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks5.png')%>" alt="Card 5"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks6.png')%>" alt="Card 6"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks7.png')%>" alt="Card 7"></li>
+        <li class="looks__gallery-item"><img class="looks__gallery-image"
+            src="<%=require('./src/images/looks/looks8.png')%>" alt="Card 8"></li>
       </ul>
     </section>
     <section class="subscribe" id="subscribe">
-      <p class="subscribe__text">Subscribe to the newsletter and be the first to know about the new collection’s drop date
+      <p class="subscribe__text">Subscribe to the newsletter and be the first to know about the new collection’s drop
+        date
         and news</p>
       <form class="subscribe__form" novalidate>
         <label for="email"></label>
         <div class="subscribe__submit-input">
-          <input class="subscribe__input form-input" type="email" id="email" name="email"  placeholder="Enter your email  here" required>
+          <input class="subscribe__input form-input" type="email" id="email" name="email"
+            placeholder="Enter your email  here" required>
           <button class="subscribe__submit" type="submit">Submit</button>
         </div>
         <span class="subscribe__error email-error"></span>
         <div class="subscribe__checkbox">
           <label for="consent" class="subscribe__label">
-            <input  class='form-input' type="checkbox" id="consent" name="consent" required>
-            I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy 
+            <input class='form-input' type="checkbox" id="consent" name="consent" required>
+            I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the
+            Privacy Policy
           </label>
         </div>
         <span class="subscribe__error consent-error"></span>
@@ -95,5 +106,5 @@
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__text">© 2021, Givenchy. Some rights reservedç</p>
+    <p class="footer__text">© 2021, Givenchy. Some rights reserved</p>
   </footer>
