@@ -1,4 +1,4 @@
-.subscribe__text {
+.footer__text {
   font-family: 'Prompt';
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .subscribe__text {
+  .footer__text {
     max-width: 486px;
     font-size: 18px;
     line-height: 32px;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .subscribe__text {
+  .footer__text {
     font-size: 14px;
     line-height: 20px;
     max-width: 280px;
