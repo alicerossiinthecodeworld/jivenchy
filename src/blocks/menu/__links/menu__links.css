@@ -10,6 +10,7 @@
   text-align: center;
   padding: 0;
   margin-right: 10px;
+  list-style: none;
 }
 
 .menu__links:hover {

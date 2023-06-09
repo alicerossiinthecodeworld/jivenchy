@@ -9,4 +9,4 @@ console.log(images);
 
 export const anchorAbout = document.querySelectorAll('#aboutAnc')
 export const anchorLooks = document.querySelectorAll('#looksAnc')
-export const anchorSubscribe = document.querySelectorAll('#subscribeAnc')
+export const anchorSubscribe = document.querySelectorAll('.subscribeAnc')
